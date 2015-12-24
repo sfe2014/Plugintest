@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:background="#cde6c7" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="这是主程序"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/id_findplugin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="FindPlugin"
+        android:padding="8dp"
+        android:text="查找插件"
+        android:background="#faa755" />
+    
+    <LinearLayout android:id="@+id/id_container_plugin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#987165"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        
+    </LinearLayout>
+
+</LinearLayout>
